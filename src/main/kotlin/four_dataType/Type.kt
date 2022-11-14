@@ -30,6 +30,7 @@ package four_dataType
  *      다만, 피연산자로 사용한 경우에는 자동으로 형변환 됩니다. 5 + 7L
  *
  * ## ten
+ *      형변환은 as 라는 키워드를 통해서 할 수 있다.
  * */
 fun main() {
     one()
@@ -41,6 +42,7 @@ fun main() {
     seven()
     eight()
     nine()
+    ten()
 }
 
 fun one() {
@@ -140,4 +142,9 @@ fun nine() {
     println(int + long)
     println(5 + 7L)
 
+}
+
+fun ten() {
+    val int: Int = 5
+    val long: Long = int as Long
 }
