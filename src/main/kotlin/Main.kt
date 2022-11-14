@@ -1,6 +1,6 @@
 /**
  * https://www.w3schools.com/KOTLIN/kotlin_variables.php
- *
+ * https://kotlinlang.org/docs/classes.html#secondary-constructors
  * 학습
  * */
 
